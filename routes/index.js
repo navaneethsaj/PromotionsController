@@ -2,9 +2,9 @@ var express = require("express");
 var router = express.Router();
 
 const AD_STATUS = {
-  SUDOKU: { status: 200, message: "show ads" },
-  BINGO: { status: 200, message: "show ads" },
-  HAND_CRICKET: { status: 200, message: "show ads" },
+  SUDOKU: { status: 200, message: "show ads", showAfter: 60 },
+  BINGO: { status: 200, message: "show ads", showAfter: 60 },
+  HAND_CRICKET: { status: 200, message: "show ads", showAfter: 60 },
 };
 
 /* GET home page. */
